@@ -14,10 +14,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 5%;
+    padding: 10px 5%;
     background-color: #580EF6;
 }
 
-header nav {
+header nav ul {
     display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+    list-style: none;
 }
