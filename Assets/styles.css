@@ -27,13 +27,13 @@ nav a:hover {
   font-size: 40px;
 }
 
-body {
-  background-color: #bacdf7;
-}
-
 /* CUSTOM STYLES */
 
 /* HEADER STYLES */
+
+body {
+  background-color: #bacdf7;
+}
 
 header {
   position: fixed;
