@@ -12,7 +12,7 @@ Some challenges I faced when building the project were positioning images proper
 
 # Deployment
 
-The website has been deployed via GitHub pages, and is accessible now via this link: 
+The website has been deployed via GitHub pages, and is accessible now via this link: https://thomasszentirmay.github.io/web-dev-portfolio/
 
 ![readme-screenshot](https://github.com/ThomasSzentirmay/web-dev-portfolio/assets/132217664/f14c2577-2d7b-4607-bb21-3e878fc50a26)
 
