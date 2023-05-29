@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header nav a:not(:last-child) {
@@ -91,9 +91,35 @@ body {
     background-color: #bacdf7;
 }
 
-main .about-me {
-    text-align: center;
+.about-me {
+    text-align: justify;
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
 }
+
+.about-me h1 {
+    font-size: 40px;
+}
+
+.about-me p {
+    font-size: 20px;
+}
+
+.about-me::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    transform: translateX(-50%);
+    height: 60%;
+    width: 2px;
+    background-color: black;
+  }
 
 /* MOBILE DESIGN */
 
