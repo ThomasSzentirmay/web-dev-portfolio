@@ -204,6 +204,10 @@ body {
     margin-top: 20px;
   }
 
+  .hero-content .name {
+    font-size: 30px;
+  }
+
   .about-me {
     display: flex;
     flex-direction: column;
@@ -214,15 +218,17 @@ body {
   .about-me h2 {
     margin-bottom: 20px;
     padding: 0;
+    font-size: 30px;
   }
 
   .about-me p {
     padding-left: 60px;
     padding-right: 60px;
+    font-size: 18px;
   }
 
   .work h2 {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 30px;
   }
 }
