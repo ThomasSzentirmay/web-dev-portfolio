@@ -92,6 +92,23 @@ body {
 
 /* MOBILE DESIGN */
 
-@media (max-width: 700px) {
-
-}
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    header nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav a {
+      margin: 5px 0;
+    }
+  }
