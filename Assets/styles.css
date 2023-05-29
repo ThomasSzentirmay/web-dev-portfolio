@@ -22,6 +22,10 @@ nav a:hover {
   padding: 5px;
 }
 
+.heading-2 {
+  font-size: 40px;
+}
+
 /* CUSTOM STYLES */
 
 header {
@@ -105,7 +109,6 @@ body {
 }
 
 .about-me h2 {
-  font-size: 40px;
   padding-right: 80px;
   padding-left: 175px;
 }
@@ -122,10 +125,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   background-color: #92abf4;
-}
-
-.work h2 {
-    font-size: 40px;
 }
 
 .main-work {
@@ -170,10 +169,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.contact-me h2 {
-  font-size: 40px;
 }
 
 .contact-me a {
