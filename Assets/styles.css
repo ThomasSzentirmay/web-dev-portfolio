@@ -10,6 +10,7 @@ a {
     color: black;
     text-decoration: none;
     position: relative;
+    padding: 5px;
 }
 
 /* GLOBAL STYLES/CLASSES */
@@ -83,6 +84,10 @@ header nav a:not(:last-child) {
     100% {
         opacity: 1;
     }
+}
+
+body {
+    background-color: black;
 }
 
 /* MOBILE DESIGN */
