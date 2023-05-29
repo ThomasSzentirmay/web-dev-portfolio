@@ -30,6 +30,7 @@ header {
     justify-content: space-between;
     padding: 10px 5%;
     background-color: #4d53e9;
+    z-index: 100;
 }
 
 header h1 {
@@ -87,7 +88,11 @@ header nav a:not(:last-child) {
 }
 
 body {
-    background-color: black;
+    background-color: #bacdf7;
+}
+
+main .about-me {
+    text-align: center;
 }
 
 /* MOBILE DESIGN */
