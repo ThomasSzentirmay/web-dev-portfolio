@@ -25,6 +25,10 @@ nav a:hover {
 /* CUSTOM STYLES */
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,6 +40,7 @@ header {
 
 header h1 {
   font-size: 18px;
+  color: #bacdf7;
 }
 
 header nav a:not(:last-child) {
@@ -167,11 +172,11 @@ body {
   header {
     flex-direction: column;
     padding: 10px;
+    height: 20px;
   }
 
   header h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    display: none;
   }
 
   header nav {
