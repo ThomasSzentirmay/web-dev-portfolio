@@ -105,7 +105,6 @@ header nav a:not(:last-child) {
 /* ABOUT-ME SECTION STYLES */
 
 .about-me {
-  text-align: justify;
   height: 300px;
   width: auto;
   display: flex;
@@ -115,11 +114,13 @@ header nav a:not(:last-child) {
 }
 
 .about-me h2 {
+  text-align: center;
   padding-right: 80px;
   padding-left: 175px;
 }
 
 .about-me p {
+  text-align: justify;
   font-size: 20px;
   font-family: "Trebuchet MS", sans-serif;
   padding-right: 175px;
@@ -138,8 +139,6 @@ header nav a:not(:last-child) {
 .main-work {
   padding: 10px;
   margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
 }
 
 .main-work a {
@@ -158,6 +157,10 @@ header nav a:not(:last-child) {
   height: auto;
   transition: transform 0.3s ease;
   border-radius: 5%;
+}
+
+.work img:first-child {
+  float: right;
 }
 
 .main-work:hover img {
